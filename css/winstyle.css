@@ -1,0 +1,40 @@
+﻿.win_background
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1366px;
+  height:768px;
+  z-index:-1;
+  background-image:url(../images/PS/win.jpg);
+}
+.again_style
+{
+  position:absolute;
+  left:148px;
+  top:366px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.ret_style
+{
+  position:absolute;
+  left:113px;
+  top:480px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.endtime_style
+{
+  position:absolute;
+  left:152px;
+  top:190px;
+  border:0px solid #c3c3c3;
+  color:yellow;
+  font-size:50px;
+  font-weight:900;
+}

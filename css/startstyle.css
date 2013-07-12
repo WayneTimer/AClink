@@ -1,0 +1,40 @@
+﻿.start_background
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1366px;
+  height:768px;
+  z-index:-1;
+  background-image:url(../images/PS/start_background.jpg);
+}
+.begin_style
+{
+  position:absolute;
+  left:841px;
+  top:237px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.help_style
+{
+  position:absolute;
+  left:841px;
+  top:354px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.quit_style
+{
+  position:absolute;
+  left:841px;
+  top:471px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}

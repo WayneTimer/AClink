@@ -1,0 +1,20 @@
+﻿.help_background
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1366px;
+  height:768px;
+  z-index:-1;
+  background-image:url(../images/PS/help.jpg);
+}
+.ret_style
+{
+  position:absolute;
+  left:737px;
+  top:525px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}

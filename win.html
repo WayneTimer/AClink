@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/winstyle.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta charset="utf-8" />
+  <title>AC娘连连看</title>
+</head>
+
+<body>
+  <div class="win_background" ></div>
+  <input type="image" class="again_style" id="again" src="./images/PS/again.png" onclick="again()" />
+  <input type="image" class="ret_style" id="ret" src="./images/PS/back.png" onclick="ret()" />
+  <div class="endtime_style" id="endtime" ></div>
+  <script>
+  var nowtime=location.search;
+  nowtime=nowtime.substr(1);
+  var temp;
+  temp=document.getElementById("endtime");
+  temp.innerHTML="耗时："+nowtime+"秒！";
+  
+  function again()
+  {
+    window.location.href="./AC.html";
+  }  
+  function ret()
+  {
+    window.location.href="./start.html";
+  }  
+  </script>
+</body>
+</html>

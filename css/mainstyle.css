@@ -1,0 +1,141 @@
+﻿.choose
+{
+  border:1px solid #f00
+}
+.unchoose
+{
+  border:1px solid transparent;
+}
+.kill
+{
+  border:1px solid transparent;
+  visibility:hidden;
+}
+.AI_choose
+{
+  border:1px solid blue;
+}
+.jindu_style
+{
+  position:absolute;
+  left:1025px;
+  top:20px;
+  border:0px solid #c3c3c3;
+}
+.score_style
+{
+  position:absolute;
+  left:1210px;
+  top:80px;
+  border:0px solid #c3c3c3;
+  color:yellow;
+  font-size:50px;
+  font-weight:900;
+}
+.tishi_style
+{
+  position:absolute;
+  left:1150px;
+  top:300px;
+  border:0px solid #c3c3c3;
+}
+.chongpai_style
+{
+  position:absolute;
+  left:1150px;
+  top:450px;
+  border:0px solid #c3c3c3;
+}
+.tishi_times_style
+{
+  position:absolute;
+  left:1250px;
+  top:300px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.chongpai_times_style
+{
+  position:absolute;
+  left:1250px;
+  top:450px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.restart_style
+{
+  position:absolute;
+  left:17px;
+  top:200px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.ret_style
+{
+  position:absolute;
+  left:17px;
+  top:300px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+}
+.upCanvas
+{
+  position:absolute;
+  left:227px;
+  top:141px;
+  z-index:1;
+  border:0px solid #c3c3c3;
+}
+.main_background
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1366px;
+  height:768px;
+  z-index:-1;
+  background-image:url(../images/PS/main_background.jpg);
+}
+.main_table
+{
+  position:absolute;
+  left:227px;
+  top:141px;
+  width:868px;
+  height:627px;
+  border-collapse:collapse;
+}
+td
+{
+  width:62px;
+  height:57px;
+}
+.timeout_style
+{
+  position:absolute;
+  left:550px;
+  top:40px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+  z-index:2;
+}
+.lost_style
+{
+  position:absolute;
+  top:120px;
+  border:0px solid #c3c3c3;
+  color:red;
+  font-size:50px;
+  font-weight:900;
+  z-index:2;
+}

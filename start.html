@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/startstyle.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta charset="utf-8" />
+  <title>AC娘连连看</title>
+</head>
+
+<body>
+  <div class="start_background" ></div>
+  <input type="image" class="begin_style" id="begin" src="./images/PS/start_1.png" onclick="begin()" />
+  <input type="image" class="help_style" id="help" src="./images/PS/start_2.png" onclick="help()" />
+  <input type="image" class="quit_style" id="quit" src="./images/PS/start_3.png" onclick="quit()" />
+  <script>
+  function begin()
+  {
+    window.location.href="./AC.html";
+  }
+  function help()
+  {
+    window.location.href="./help.html";
+  }
+  function quit()
+  {
+    window.open('','_self',''); //只有通过 JavaScript 代码打开的窗口才能够由 JavaScript 代码关闭，所以要这么写。IE可以不写这句
+    window.close();  
+  }
+  </script>
+</body>
+</html>

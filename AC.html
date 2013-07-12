@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/mainstyle.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta charset="utf-8" />
+  <title>AC娘连连看</title>
+</head>
+
+<body>
+<div class="main_background" >
+  <img class="jindu_style" id="jindu" src="./images/PS/jindu/26.png" />
+  <div class="score_style" id="score" >0</div>
+  <div class="tishi_times_style" id="tishi_times" ></div>
+  <div class="chongpai_times_style" id="chongpai_times" ></div>
+  <div class="timeout_style" id="timeout" ></div>
+  <div class="lost_style" id="lost1" ></div>
+  <div class="lost_style" id="lost2" ></div>
+  <div class="lost_style" id="lost3" ></div>
+  <div class="lost_style" id="lost4" ></div>
+  <input type="image" class="tishi_style" id="tishi" src="./images/PS/tishi.png" onclick="AI()" />
+  <input type="image" class="chongpai_style" id="chongpai" src="./images/PS/chongpai.png" onclick="chongpai_AI()" />
+  <input type="image" class="restart_style" id="restart" src="./images/PS/main_again.png" onclick="restart()" />
+  <input type="image" class="ret_style" id="ret" src="./images/PS/main_ret.png" onclick="ret()" />
+  <table class="main_table" cellspacing="0" cellpadding="0" border="0" style="border-spacing:0px" >
+    <tbody id="table1" >
+    </tbody>
+  </table>
+
+  <canvas class="upCanvas" id="myCanvas" width="868px" height="627px" onmousedown="click_canvas(event)" >
+  </canvas>
+  <br>
+  <br>
+  <br>
+
+
+  <script src="./js/mainjs.js">
+  </script>
+</div>
+</body>
+</html>
